@@ -1,4 +1,4 @@
-# Uni Localization demo for React
+# Uni Localization example for React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
