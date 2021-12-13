@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-Check out demo [here](https://uiwebkit.github.io/localize-angular/)
+Check out demo [here](https://uiwebkit.github.io/localize-react/)
 
 Check out our docs [here](https://uiwebkit.com/wgt/loc/2)
 
