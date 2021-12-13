@@ -24,6 +24,12 @@
   color: white;
 }
 
+.App-localize {
+  background: linear-gradient(90deg, #185079 0%, #0ACDB7 100%);
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .App-link {
   color: #61dafb;
 }
