@@ -17,7 +17,7 @@ function App() {
                         mini={true}
                         round={true}
                         routing={true}
-                        list={'lang-menu.json'}
+                        url={'lang-menu.json'}
                     />
                     (Web Component)
                     | <span><UniLangMenuCustom/>(Next Gen custom)</span>

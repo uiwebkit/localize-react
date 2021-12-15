@@ -29,7 +29,7 @@ function UniLangMenuCustom() {
                         <uni-list-wrap pro={true}>
                             <ul>
                                 <uni-load-repeat strict={true} url={'lang-menu.json'}>
-                                    <div uni-render="" hidden>
+                                    <uni-render-template hidden>
                                         <uni-router-link params={'lang=(( lang ))'}>
                                             <uni-event-store-get
                                                 path={'loc.active.lang'}
@@ -55,7 +55,7 @@ function UniLangMenuCustom() {
                                         <uni-route params={'lang=(( lang ))'} prop={'activate'}>
                                             <uni-store-set inactive={true} path={'loc.active'} state={'(( uniself ))'}/>
                                         </uni-route>
-                                    </div>
+                                    </uni-render-template>
                                 </uni-load-repeat>
                             </ul>
                         </uni-list-wrap>
