@@ -13,12 +13,9 @@ function App() {
                 <uni-translate>Choose the option that suits you best:</uni-translate>
 
                 <div className="App-localize">
-                    <uni-lang-menu-shadow
-                        mini={true}
-                        round={true}
-                        routing={true}
-                        url={'lang-menu.json'}
-                    />
+                    <uni-event-load url={'lang-menu.json'} prop={'value'}>
+                        <uni-lang-menu-shadow mini={true} round={true}/>
+                    </uni-event-load>
                     (Web Component)
                     | <span><UniLangMenuCustom/>(Next Gen custom)</span>
                 </div>

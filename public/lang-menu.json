@@ -1,26 +1,26 @@
 [
   {
-    "lang": "en",
+    "route": "lang=en",
     "flag": "gb",
-    "name": "English",
-    "translation": "i18n/en.json"
+    "textLabel": "English",
+    "translationUrl": "i18n/en.json"
   },
   {
-    "lang": "cn",
-    "flag": "cn",
-    "name": "中文",
-    "translation": "i18n/cn.json"
-  },
-  {
-    "lang": "es",
+    "route": "lang=es",
     "flag": "es",
-    "name": "Española",
-    "translation": "i18n/es.json"
+    "textLabel": "Española",
+    "translationUrl": "i18n/es.json"
   },
   {
-    "lang": "ru",
+    "route": "lang=cn",
+    "flag": "cn",
+    "textLabel": "中文",
+    "translationUrl": "i18n/cn.json"
+  },
+  {
+    "route": "lang=ru",
     "flag": "ru",
-    "name": "Русский",
-    "translation": "i18n/ru.json"
+    "textLabel": "Русский",
+    "translationUrl": "i18n/ru.json"
   }
 ]
